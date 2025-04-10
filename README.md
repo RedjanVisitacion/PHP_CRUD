@@ -10,7 +10,7 @@
 
 <!-- Logo Image -->
 <div align="center">
-  <img src="img/profile.png" alt="use data to see photos" style="width: 60px; height: 60px; object-fit: contain; margin-top: 20px;">
+  <img src="img/profile.png" alt="use data to see photos" style="width: 100px; height: 100px; object-fit: contain; margin-top: 20px;">
 </div>
 
 <!-- Footer -->
