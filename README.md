@@ -10,7 +10,7 @@
 
 <!-- Logo Image -->
 <div align="center">
-  <img class="headP hlogo" src="img/profile.png" alt="use data to see photos" style="max-width: 50px; margin-top: 20px;">
+  <img src="img/profile.png" alt="use data to see photos" style="width: 60px; height: 60px; object-fit: contain; margin-top: 20px;">
 </div>
 
 <!-- Footer -->
