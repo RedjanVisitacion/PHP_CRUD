@@ -1,49 +1,25 @@
-# ![](../img/rpsv.jpg)
-# CRUD System
+<h1 align="center">
+  <span style="color: red; font-weight: bold;">DISCLAIMER:</span>
+</h1>
 
-## Created by: **Redjan Phil S. Visitacion**
+<p align="center" style="font-size: 18px; font-family: Arial, sans-serif; color: #555;">
+  This CRUD system was developed for educational and demonstration purposes only. It is not intended for commercial use or production deployment. 
+  The author does not claim any liability for issues arising from misuse or unauthorized modification of the code. 
+  Users are encouraged to study, learn from, and improve upon the code while respecting proper attribution.
+</p>
 
----
+<!-- Logo Image -->
+<div align="center">
+  <img class="headP hlogo" src="img/rpsv.jpg" alt="CRUD Logo" style="max-width: 200px; margin-top: 20px;">
+</div>
 
-## 📌 Disclaimer
+<!-- Footer -->
+<p align="center" style="font-size: 14px; color: #888; font-family: Arial, sans-serif;">
+  &copy; <strong>Redjan Phil S. Visitacion</strong> 2025. All rights reserved.
+</p>
 
-This CRUD (Create, Read, Update, Delete) system was created for **educational and personal project purposes** only. It showcases basic database operations typically used in web applications.
+<hr style="border: 0; border-top: 1px solid #ccc; margin-top: 20px;">
 
-### ⚠️ Please Note:
-- This project is provided **"as is"**, with **no warranties or guarantees** of any kind.
-- The author **does not take responsibility** for any issues, data loss, or damages that may occur from using this code.
-- **Security enhancements** such as authentication, input validation, and sanitization are recommended for production use.
-- The **logo** used above is a placeholder. Replace `logo.png` with your actual logo image file.
-
----
-
-## 🛠️ Features
-
-- ✅ Create new records  
-- 🔍 Read/View existing records  
-- ✏️ Update data  
-- ❌ Delete entries  
-
----
-
-## 👨‍💻 Author
-
-**Redjan Phil S. Visitacion**  
-Web Developer | Tech Enthusiast | Lifelong Learner
-
----
-
-## 📂 How to Use
-
-1. Clone or download this repository.
-2. Set up a local web server (e.g., XAMPP, WAMP, or MAMP).
-3. Import the database file (if provided) into your local MySQL server.
-4. Update database connection credentials in the config file.
-5. Run the application in your browser.
-
----
-
-## 📝 License
-
-This project is open-source and free to use for **non-commercial** purposes. Attribution is appreciated.
-
+<p align="center" style="font-size: 14px; color: #777; font-family: Arial, sans-serif;">
+  This system is created by <strong>Redjan Phil S. Visitacion</strong> as part of a learning initiative in CRUD development.
+</p>
