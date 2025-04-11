@@ -3,28 +3,6 @@
 session_start();
 include_once 'connection.php';
 
-// If user is already logged in, redirect based on user_type
-if (isset($_SESSION['user_id']) && isset($_SESSION['user_type'])) {
-    $user_id = $_SESSION['user_id'];
-
-    $stmt = $con->prepare("SELECT user_type FROM users WHERE id = ?");
-    $stmt->bind_param("i", $user_id);
-    $stmt->execute();
-    $result = $stmt->get_result();
-
-    if ($row = $result->fetch_assoc()) {
-        $account_type = $row['user_type'];
-
-        if ($account_type === 'admin') {
-            header("Location: admin/dashboard.php");
-        } elseif ($account_type === 'secretary') {
-            header("Location: secretary/dashboard.php");
-        } else {
-            header("Location: resident/dashboard.php");
-        }
-        exit();
-    }
-}
 
 // Handle form submission
 $message = '';
