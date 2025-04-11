@@ -87,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
                     <button type="submit" class="btn btn-primary w-100 mb-3">Sign Up</button>
                     <div class="text-center">
-                        <p class="text-muted">Already have an account? <a href="#">Log in</a></p>
+                           <a href="download.php" class="btn btn-success">Download Users as Excel</a>
                     </div>
                 </form>
             </div>
